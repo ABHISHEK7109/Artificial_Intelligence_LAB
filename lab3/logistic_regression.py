@@ -1,4 +1,4 @@
-
+# Aim: To implement a Logistic Regression model for performing binary classification tasks.
 import numpy as np
 
 # Training data

@@ -1,3 +1,4 @@
+# Aim: To implement the Minimax algorithm for decision-making in two-player, turn-based zero-sum games.
 import math
 
 def minimax(depth, node_index, maximizing_player, values, max_depth):
@@ -27,7 +28,7 @@ def minimax(depth, node_index, maximizing_player, values, max_depth):
 values = [3, 5, 2, 9, 12, 5, 23, 23]
 
 max_depth = 3
-
+print("minmax_gameplaying :")
 optimal_value = minimax(
     0, 0, True, values, max_depth
 )

@@ -1,3 +1,4 @@
+# Aim: To implement a Linear Regression model to find the best-fitting linear relationship between independent and dependent variables.
 import numpy as np
 
 # Training data

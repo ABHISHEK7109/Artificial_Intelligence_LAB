@@ -1,5 +1,5 @@
 
-# Hill Climbing Algorithm
+# Aim: To implement the Hill Climbing local optimization algorithm to find a local maximum/minimum by iteratively moving in the direction of increasing/decreasing value.
 
 def hill_climbing(start, goal, graph, h):
     current = start
@@ -49,5 +49,5 @@ h = {
     'E': 3,
     'F': 0
 }
-
+print("Hill Climbing Search :")
 hill_climbing('A', 'F', graph, h)

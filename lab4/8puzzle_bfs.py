@@ -1,3 +1,4 @@
+# Aim: To solve the classic 8-Puzzle sliding tile problem using the Breadth-First Search algorithm.
 from collections import deque
 
 # Initial and goal states

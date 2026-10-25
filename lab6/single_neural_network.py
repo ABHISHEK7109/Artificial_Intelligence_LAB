@@ -1,3 +1,4 @@
+# Aim: To implement a Single-Layer Neural Network (Perceptron) for binary classification or linear learning tasks.
 import numpy as np
 
 # Input data

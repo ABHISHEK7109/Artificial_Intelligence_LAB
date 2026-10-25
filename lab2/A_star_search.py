@@ -1,4 +1,4 @@
-# A* Search
+# Aim: To implement the A* search algorithm using heuristics to find the shortest path from a start node to a goal node.
 
 graph = {
     'A': [('B', 1), ('C', 3)],
@@ -18,6 +18,8 @@ h = {
     'E': 3,
     'F': 0
 }
+
+print("A* Search Output :")
 
 def a_star(start, goal):
     open_list = [(start, 0)]

@@ -1,5 +1,5 @@
 
-# Backward Chaining Algorithm
+# Aim: To implement a backward-chaining inference engine in a rule-based expert system starting from a goal hypothesis.
 
 def backward_chaining(facts, rules, goal):
     facts = set(facts)
@@ -34,7 +34,7 @@ rules = [
 
 # Goal to prove
 goal = "E"
-
+print("Backward Chaining :")
 print("Initial facts:", facts)
 print("Goal:", goal)
 

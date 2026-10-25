@@ -1,3 +1,4 @@
+# Aim: To implement the Breadth-First Search (BFS) graph traversal algorithm to explore nodes level by level.
 from collections import deque
 
 graph = {
@@ -14,6 +15,7 @@ graph = {
 visited = set()
 queue = deque([0])
 
+print("BFS Output :")
 while queue:
     node = queue.popleft()
 

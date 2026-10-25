@@ -1,3 +1,4 @@
+# Aim: To implement a Tic-Tac-Toe game simulation incorporating algorithmic decision-making.
 import math
 
 board = [" "] * 9

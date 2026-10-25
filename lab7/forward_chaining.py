@@ -1,3 +1,4 @@
+# Aim: To implement a forward-chaining inference engine in a rule-based expert system starting from known facts to derive new conclusions.
 def forward_chaining(facts, rules, goal):
     facts = set(facts)
 
@@ -21,7 +22,7 @@ def forward_chaining(facts, rules, goal):
     print("Goal cannot be proved:", goal)
     return False
 
-
+print("Forward Chaining :")
 # Initial facts
 facts = ["A", "B"]
 

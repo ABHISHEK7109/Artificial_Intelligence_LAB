@@ -1,3 +1,4 @@
+# Aim: To implement the Depth-First Search (DFS) graph traversal algorithm to explore as deep as possible along each branch before backtracking.
 graph = {
     0: [2, 4],
     2: [5],
@@ -11,10 +12,12 @@ graph = {
 
 visited = set()
 
+print("DFS Output :")
 def dfs(node):
     if node in visited:
         return
 
+    
     print(node, end=" ")
     visited.add(node)
 

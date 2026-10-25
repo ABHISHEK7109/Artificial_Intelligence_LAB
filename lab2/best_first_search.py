@@ -1,4 +1,4 @@
-
+# Aim: To implement the Best-First Search algorithm to greedily explore the node closest to the goal based on a heuristic evaluation function.
 graph = {
     'A': ['B', 'C'],
     'B': ['D', 'E'],
@@ -16,7 +16,7 @@ h = {
     'E': 3,
     'F': 0
 }
-
+print("Best First Search :")
 def best_first_search(start, goal):
     open_list = [start]
     visited = []

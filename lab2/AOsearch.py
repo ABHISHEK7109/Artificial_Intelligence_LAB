@@ -1,4 +1,4 @@
-# Simple AO* Algorithm
+# Aim: To implement the AO* algorithm for problem-solving using AND-OR graphs and heuristic search strategies.
 
 graph = {
     'A': [['B', 'C'], ['D']],
@@ -19,7 +19,7 @@ cost = {
     'F': 1,
     'G': 1
 }
-
+print("AO Search")
 def ao_star(node):
     print("Visiting:", node)
 

@@ -1,4 +1,4 @@
-
+# Aim: To implement a Genetic Algorithm utilizing selection, crossover, and mutation operators to solve optimization problems.
 import random
 
 # Fitness function

@@ -1,3 +1,4 @@
+# Aim: To solve the 8-Queen problem using backtracking to place eight queens on a chessboard such that no two queens threaten each other.
 N = 8
 
 board = [-1] * N
