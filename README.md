@@ -8,11 +8,14 @@
 
 | S. No. | Name | Enrollment Number |
 |---|---|---|
-| 1 | Abhishek | 2024BITE060 |
-| 2 | Vivek Sharma | 2024BITE052 |
+| 1 | Mandeep Singh | 2024BITE016 |
+| 2 | Aman Thappa | 2024BITE029 |
 | 3 | Pankaj Kumar | 2024BITE046 |
-| 4 | Aman Thappa | 2024BITE029 |
-| 5 | Mandeep Singh | 2024BITE016 |
+| 4 | Vivek Sharma | 2024BITE052 |
+| 5 | Abhishek | 2024BITE060 |
+
+
+
 
 ## Aim
 
